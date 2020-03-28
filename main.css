@@ -1,13 +1,17 @@
-body{background-color: aquamarine;
-    color: aliceblue;}
+body{background-color: palegreen;
+    color: black;}
 
-h1{color:white;
+/*Type selector*/
+h1{color: blue;
     text-align: center;}
+h3{color: red;}
 
+/*ID selector*/
 #about{border-radius: 25px;
         border: 2px solid #73AD21;
         padding: 20px;
         width: 200px;
         height: 150px;}
 
-.link{color:crimson;}
+/*Class selector*/
+.link{color: yellow;}
