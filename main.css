@@ -1,13 +1,13 @@
-body{background-color: dimgray; 
-    color: white;
-    font-style: oblique;}
+body{color: black;
+    font-style: oblique;
+background: lightblue url("img_tree.gif") no-repeat fixed center; }
 
 /*Type selector*/
 h1{color: blue;
     text-align: center;
     text-decoration: underline overline wavy green;}
 
-h3{color: lightseagreen;
+h3{color: red;
     text-decoration: underline;
     font-weight: bold;}
 
@@ -32,8 +32,8 @@ h3{color: lightseagreen;
   border: 2px solid yellow;
   padding: 20px;
   width: 400px;
-  height: 200px;
+  height: 150px;
 }
 
 /*Class selector*/
-.link{color: blueviolet;}
+.link{color: blue;}
