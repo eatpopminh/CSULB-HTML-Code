@@ -1,10 +1,11 @@
-body{background-color: palegreen;
-    color: black;}
+body{background-color: dimgray;
+    color: white;}
 
 /*Type selector*/
 h1{color: blue;
     text-align: center;}
-h3{color: red;}
+h3{color: red;
+    }
 
 /*ID selector*/
 #about{border-radius: 25px;
@@ -12,6 +13,13 @@ h3{color: red;}
         padding: 20px;
         width: 200px;
         height: 150px;}
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid yellow;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
 
 /*Class selector*/
 .link{color: yellow;}
