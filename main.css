@@ -1,25 +1,39 @@
-body{background-color: dimgray;
-    color: white;}
+body{background-color: dimgray; 
+    color: white;
+    font-style: oblique;}
 
 /*Type selector*/
 h1{color: blue;
-    text-align: center;}
-h3{color: red;
-    }
+    text-align: center;
+    text-decoration: underline overline wavy green;}
+
+h3{color: lightseagreen;
+    text-decoration: underline;
+    font-weight: bold;}
+
 
 /*ID selector*/
-#about{border-radius: 25px;
-        border: 2px solid #73AD21;
-        padding: 20px;
-        width: 200px;
-        height: 150px;}
 #rcorners2 {
   border-radius: 25px;
   border: 2px solid yellow;
   padding: 20px;
   width: 200px;
-  height: 150px;
+  height: 100px;
+}
+#rcorners2v2 {
+  border-radius: 25px;
+  border: 2px solid yellow;
+  padding: 20px;
+  width: 600px;
+  height: 100px;
+}
+#rcorners2v3 {
+  border-radius: 25px;
+  border: 2px solid yellow;
+  padding: 20px;
+  width: 400px;
+  height: 200px;
 }
 
 /*Class selector*/
-.link{color: yellow;}
+.link{color: blueviolet;}
