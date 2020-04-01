@@ -5,10 +5,12 @@ background: lightblue url("img_tree.gif") no-repeat fixed center; }
 /*Type selector*/
 h1{color: blue;
     text-align: center;
+    font-size: 50px;
     text-decoration: underline overline wavy green;}
 
 h3{color: red;
     text-decoration: underline;
+    font-size: 20px;
     font-weight: bold;}
 
 
@@ -18,7 +20,7 @@ h3{color: red;
   border: 2px solid yellow;
   padding: 20px;
   width: 200px;
-  height: 100px;
+  height: 130px;
 }
 #rcorners2v2 {
   border-radius: 25px;
@@ -36,4 +38,25 @@ h3{color: red;
 }
 
 /*Class selector*/
-.link{color: blue;}
+.link{color: blue;
+}
+.box:link, .box:visited {
+    float:left;
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+    border-right: 1px solid #bbb;
+}
+.box:hover, .box:active {
+  background-color: red;
+}
+
+ul.demo {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+    
+}
