@@ -9,7 +9,7 @@ h1{color: blue;
     text-decoration: underline overline wavy green;}
 
 h3{color: red;
-    text-decoration: underline;
+    ;
     font-size: 20px;
     font-weight: bold;}
 
@@ -18,21 +18,21 @@ h3{color: red;
 #rcorners2 {
   border-radius: 25px;
   border: 2px solid yellow;
-  padding: 20px;
+  padding: 5px;
   width: 200px;
   height: 130px;
 }
 #rcorners2v2 {
   border-radius: 25px;
   border: 2px solid yellow;
-  padding: 20px;
+  padding: 10px;
   width: 600px;
   height: 100px;
 }
 #rcorners2v3 {
   border-radius: 25px;
   border: 2px solid yellow;
-  padding: 20px;
+  padding: 5px;
   width: 400px;
   height: 150px;
 }
@@ -59,4 +59,7 @@ ul.demo {
   margin: 0;
   padding: 0;
     
+}
+.favoriteSites{
+    font-size: 20px;
 }
